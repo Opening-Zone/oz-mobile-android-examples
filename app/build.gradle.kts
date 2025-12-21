@@ -43,7 +43,8 @@ android {
 
 dependencies {
     implementation(project(":android_ads"))
-    
+
+    implementation("com.android.support:appcompat-v7:28.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

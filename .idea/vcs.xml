@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android_ads" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/googleads-mobile-android-examples" vcs="Git" />
   </component>
 </project>
