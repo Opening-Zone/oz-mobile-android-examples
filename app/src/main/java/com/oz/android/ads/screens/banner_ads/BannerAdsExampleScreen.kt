@@ -31,6 +31,7 @@ fun BannerAdsExampleScreen(
         listOf(
             OzAdmobBannerAd(context).apply {
                 setAdUnitId("banner_1", "ca-app-pub-3940256099942544/6300978111")
+                loadThenShow()
             },
 //            OzAdmobBannerAd(context).apply {
 //                setAdUnitId("banner_2", "ca-app-pub-3940256099942544/6300978111")
