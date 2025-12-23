@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "com.oz.android.ads"
+    namespace = "com.oz.android.ads_example"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.oz.android.ads"
+        applicationId = "com.oz.android.ads_example"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -78,6 +78,7 @@ dependencies {
     implementation(libs.androidx.compose.material3.adaptive.navigation.suite)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.play.services.ads.api)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

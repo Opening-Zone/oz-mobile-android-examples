@@ -1,4 +1,4 @@
-package com.oz.android.ads.navigation
+package com.oz.android.ads_example.navigation
 
 sealed class Screen(val route: String) {
     object Home : Screen("home")

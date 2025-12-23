@@ -1,4 +1,4 @@
-package com.oz.android.ads
+package com.oz.android.ads_example
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,9 +12,9 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.lifecycleScope
-import com.oz.android.ads.navigation.NavGraph
+import com.oz.android.ads_example.navigation.NavGraph
 import com.oz.android.ads.oz_ads.OzAdsManager
-import com.oz.android.ads.ui.theme.OzAdmobTheme
+import com.oz.android.ads_example.ui.theme.OzAdmobTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {

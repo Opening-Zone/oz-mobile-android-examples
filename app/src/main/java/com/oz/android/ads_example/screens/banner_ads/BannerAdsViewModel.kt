@@ -1,4 +1,4 @@
-package com.oz.android.ads.screens.banner_ads
+package com.oz.android.ads_example.screens.banner_ads
 
 import androidx.lifecycle.ViewModel
 import com.oz.android.ads.oz_ads.ads_component.ads_inline.admob.OzAdmobBannerAd

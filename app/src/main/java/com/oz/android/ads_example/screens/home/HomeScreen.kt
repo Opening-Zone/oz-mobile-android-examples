@@ -1,4 +1,4 @@
-package com.oz.android.ads.screens.home
+package com.oz.android.ads_example.screens.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
-import com.oz.android.ads.navigation.Screen
+import com.oz.android.ads_example.navigation.Screen
 
 @Composable
 fun HomeScreen(navController: NavController) {

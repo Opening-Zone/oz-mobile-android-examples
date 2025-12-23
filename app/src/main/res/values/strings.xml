@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OzAdmob</string>
+
+    <string name="ad_attribution" translatable="false">Ad</string>
 </resources>

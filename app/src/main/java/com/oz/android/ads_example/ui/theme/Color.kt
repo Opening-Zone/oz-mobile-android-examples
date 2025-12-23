@@ -1,4 +1,4 @@
-package com.oz.android.ads.ui.theme
+package com.oz.android.ads_example.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
