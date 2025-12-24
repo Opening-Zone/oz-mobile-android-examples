@@ -5,6 +5,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -55,7 +57,10 @@ fun NativeAdsExampleScreen(
                 Text(text = if (ad.getRefreshTime() > 0) "Refreshing Native Ad" else "Normal Native Ad")
                 AndroidView(
                     factory = { ad },
-                    modifier = Modifier.padding(8.dp)
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(300.dp)
+                        .padding(8.dp)
                 )
                 ComposeButton(onClick = { viewModel.refreshAd(ad) }) {
                     Text(text = "Refresh Ad")
