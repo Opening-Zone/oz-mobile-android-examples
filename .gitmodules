@@ -1,3 +1,6 @@
 [submodule "googleads-mobile-android-examples"]
 	path = googleads-mobile-android-examples
 	url = https://github.com/googleads/googleads-mobile-android-examples.git
+[submodule "android_ads"]
+	path = android_ads
+	url = https://github.com/garenaobama/Oz-Admonetization.git
