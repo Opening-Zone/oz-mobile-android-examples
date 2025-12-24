@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--ads-->
+    <color name="ads_border">#FFBB86FC</color>
+    <color name="ads_background">#F6F6F6</color>
+    <color name="ads_cta_background">#506A8C</color>
+    <color name="ads_cta_text">#0B0B0B</color>
+    <color name="ads_mark_background">#B3E5FC</color>
+    <color name="ads_text">#000000</color>
 </resources>

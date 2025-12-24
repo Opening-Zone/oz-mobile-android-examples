@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android_ads" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/oz_uikit" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "OzAdmob"
 include(":app")
 include(":android_ads")
- 
+include(":oz_uikit")

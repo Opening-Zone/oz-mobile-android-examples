@@ -4,3 +4,6 @@
 [submodule "android_ads"]
 	path = android_ads
 	url = https://github.com/garenaobama/Oz-Admonetization.git
+[submodule "oz_uikit"]
+	path = oz_uikit
+	url = D:\\oz_ads\\oz_uikit

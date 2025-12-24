@@ -51,15 +51,13 @@ fun NativeAdsExampleScreen(
             .background(color = Color(255, 255, 255))
     ) {
         items(nativeAds) { ad ->
-            Column(modifier = Modifier
-                .padding(16.dp)
-                .border(width = 1.dp, color = Color.Gray)) {
+            Column {
                 Text(text = if (ad.getRefreshTime() > 0) "Refreshing Native Ad" else "Normal Native Ad")
                 AndroidView(
                     factory = { ad },
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(300.dp)
+                        .height(360.dp)
                         .padding(8.dp)
                 )
                 ComposeButton(onClick = { viewModel.refreshAd(ad) }) {
