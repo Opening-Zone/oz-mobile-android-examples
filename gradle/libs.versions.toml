@@ -19,6 +19,7 @@ playServicesAdsApi = "24.9.0"
 material = "1.13.0"
 intuitSdp = "1.1.1"
 constraintlayout = "2.2.1"
+playServicesMeasurementApi = "23.0.0"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
@@ -49,6 +50,7 @@ play-services-ads = { module = "com.google.android.gms:play-services-ads", versi
 play-services-ads-api = { group = "com.google.android.gms", name = "play-services-ads-api", version.ref = "playServicesAdsApi" }
 shimmer-android-core = { module = "io.github.usefulness:shimmer-android-core", version.ref = "shimmerAndroidCore" }
 user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "userMessagingPlatform" }
+play-services-measurement-api = { group = "com.google.android.gms", name = "play-services-measurement-api", version.ref = "playServicesMeasurementApi" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
