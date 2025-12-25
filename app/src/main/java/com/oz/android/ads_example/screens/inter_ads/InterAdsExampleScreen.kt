@@ -27,7 +27,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.oz.android.ads.network.admobs.ads_component.interstitial.AdmobInterstitial
 import com.oz.android.ads_example.navigation.Screen
-import com.oz.android.wrapper.OzAdListener
+import com.oz.android.ads.utils.listener.OzAdListener
 import com.oz.android.wrapper.OzAdmobIntersAd
 import kotlinx.coroutines.delay
 
